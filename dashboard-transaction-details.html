@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>Store - Your Best Marketplace</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link href="style/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="page-dashboard">
+      <div class="d-flex" id="wrapper" data-aos="fade-right">
+        <!-- Start::Sidebar -->
+        <div class="border-right" id="sidebar-wrapper">
+          <div class="sidebar-heading text-center">
+            <img
+              rel="preload"
+              src="/images/dashboard-store-logo.svg"
+              alt="Gambar-logo"
+              class="my-4"
+            />
+          </div>
+          <!-- Start :: List Group -->
+          <div class="list-group list-group-flush">
+            <a
+              href="/dashboard.html"
+              class="list-group-item list-group-item-action"
+              >Dashboard</a
+            >
+            <a
+              href="/dashboard-products.html"
+              class="list-group-item list-group-item-action"
+              >My Products</a
+            >
+            <a
+              href="/dashboard-transaction.html"
+              class="list-group-item list-group-item-action active"
+              >Transaktion</a
+            >
+            <a
+              href="/dashboard-settings.html"
+              class="list-group-item list-group-item-action"
+              >Setting</a
+            >
+            <a
+              href="/dashboard-account.html"
+              class="list-group-item list-group-item-action"
+              >My Account</a
+            >
+            <a href="/index.html" class="list-group-item list-group-item-action"
+              >Sign Out</a
+            >
+          </div>
+          <!-- End :: List Group -->
+        </div>
+        <!-- End::Sidebar -->
+
+        <!-- Start :: Page Content -->
+        <div id="page-content-wrapper">
+          <!-- FIRT: NAV -->
+          <nav
+            class="navbar navbar-expand-lg navbar-light navbar-store fixed-top"
+            data-aos="fade-down"
+            aria-label="Navbar"
+          >
+            <!-- FIRT: CONTAINER NAV -->
+            <div class="container-fluid">
+              <button
+                class="btn d-md-none mr-auto mr2 menu-nav"
+                id="menu-toggle"
+              >
+                <span class="menu-nav">menu</span>
+              </button>
+              <!-- First : BUTTON NAVBAR COLLAPSE -->
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"> </span>
+              </button>
+              <!-- End : BUTTON NAVBAR COLLAPSE -->
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- First :: Desktop menu -->
+                <ul class="navbar-nav d-none d-lg-flex ml-auto">
+                  <li class="nav-item dropdown">
+                    <a
+                      href="#"
+                      class="nav-link"
+                      id="navbarDropdown"
+                      role="button"
+                      data-toggle="dropdown"
+                    >
+                      <img
+                        src="/images/icon-user.png"
+                        alt=""
+                        loading="lazy"
+                        class="rounded-circle mr-2 profile-picture"
+                      />
+                      Hi, Nirwan mustafa
+                    </a>
+                    <div class="dropdown-menu">
+                      <a href="/dashboard.html" class="dropdown-item"
+                        >Dashboard</a
+                      >
+                      <a href="/dashboard-account.html" class="dropdown-item"
+                        >Settings</a
+                      >
+                      <div class="dropdown-divider"></div>
+                      <a href="/" class="dropdown-item">Logout</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block mt-2">
+                      <img src="/images/icon-cart-filled.svg" alt="" />
+                      <div class="card-badge">3</div>
+                    </a>
+                  </li>
+                </ul>
+                <!-- End :: Desktop menu -->
+
+                <!-- Fisrt :: Mobile Menu -->
+                <ul class="navbar-nav d-block d-lg-none">
+                  <li class="nav-item">
+                    <a href="#" class="nav-link"> Hi. Nirwan mustafa </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link d-inline-block"> Cart</a>
+                  </li>
+                </ul>
+                <!-- End :: Mobile Menu -->
+              </div>
+            </div>
+            <!-- END: CONTAINER NAV -->
+          </nav>
+          <!-- END: NAV -->
+
+          <!-- Start :: Isi Content -->
+          <div
+            class="section-content section-dashboard-home"
+            data-aos="fade-up"
+          >
+            <div class="container-fluid">
+              <!-- First:: Heading dashboard -->
+              <div class="dashboard-heading">
+                <h2 class="dashboard-title col-lg-8">#Nstyle_store210202</h2>
+                <p class="dashboard-subtitle col-lg-8">Details Transaksi</p>
+              </div>
+              <!-- End:: Heading dashboard -->
+
+              <!-- Start:: Content transaksi -->
+              <div
+                class="dashboard-content dashboard-create"
+                id="transactionDetails"
+              >
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-12 col-md-4 text-center">
+                            <img
+                              src="/images/product-details-dashboard.png"
+                              class="custom-width mb-3"
+                              alt=""
+                            />
+                          </div>
+                          <div class="col-12 col-md-8">
+                            <div class="row">
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Nama Pelanggan</div>
+                                <div class="product-subtitle">nirwan</div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Nama Produk</div>
+                                <div class="product-subtitle">
+                                  Aerostreet Riku
+                                </div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">
+                                  Tanggal Transaksi
+                                </div>
+                                <div class="product-subtitle">
+                                  12 January, 2021
+                                </div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Status</div>
+                                <div class="product-subtitle text-warning">
+                                  Pending
+                                </div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Harga Total</div>
+                                <div class="product-subtitle">Rp.200.000</div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">No.Handphone</div>
+                                <div class="product-subtitle">
+                                  +6285717787750
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr />
+                        <div class="row">
+                          <div class="col-12 mt-2">
+                            <h5>Informasi Pengiriman</h5>
+                          </div>
+
+                          <div class="col-12">
+                            <div class="row">
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Alamat 1</div>
+                                <div class="product-subtitle">
+                                  Jl.sukajaya 2
+                                </div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Alamat 2</div>
+                                <div class="product-subtitle">
+                                  Rt:007/008 no:28
+                                </div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Nama Pelanggan</div>
+                                <div class="product-subtitle">nirwan</div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Provinsi</div>
+                                <div class="product-subtitle">
+                                  Jakarta Barat
+                                </div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Kota</div>
+                                <div class="product-subtitle">Jakarta</div>
+                              </div>
+
+                              <div class="col-12 col-md-6">
+                                <div class="product-title">Kode pos</div>
+                                <div class="product-subtitle">11460</div>
+                              </div>
+
+                              <div class="col-12 col-md-3">
+                                <div class="product-title">Status</div>
+                                <select
+                                  name="status"
+                                  id="status"
+                                  class="form-control"
+                                  v-model="status"
+                                >
+                                  <option value="UNPAID">unpaid</option>
+                                  <option value="PANDING">panding</option>
+                                  <option value="SHIPPING">shipping</option>
+                                  <option value="SUCCESS">success</option>
+                                </select>
+                              </div>
+                              <template v-if="status == 'SHIPPING'">
+                                <div class="col-md-3">
+                                  <div class="product-title">
+                                    Masukan No.resi
+                                  </div>
+                                  <input
+                                    type="text"
+                                    class="form-control"
+                                    name="resi"
+                                    id="resi"
+                                    :placeholder="resi"
+                                  />
+                                </div>
+                                <div class="col-md-2">
+                                  <button
+                                    type="submit"
+                                    class="btn btn-success btn-block mt-4"
+                                  >
+                                    Update Resi
+                                  </button>
+                                </div>
+                              </template>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Start :: Tombol save -->
+                        <div class="row mt-4">
+                          <div class="col-6"></div>
+                          <div class="col-6 text-right-custom">
+                            <button
+                              type="submit"
+                              class="btn btn-success btn-block mt-2 mr-2"
+                            >
+                              Save Now
+                            </button>
+                          </div>
+                        </div>
+                        <!-- End :: Tombol save -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End:: Content transaksi -->
+            </div>
+          </div>
+          <!-- End :: Isi Content -->
+        </div>
+        <!-- End :: Page Content -->
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script
+      src="/vendor/jquery/jquery.slim.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="/vendor/bootstrap/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+      });
+    </script>
+    <script src="/vendor/vue/vue.js"></script>
+    <script>
+      var transactionDetails = new Vue({
+        el: "#transactionDetails",
+        data: {
+          status: "SHIPPING",
+          resi: "BD021294040403",
+        },
+      });
+    </script>
+  </body>
+</html>

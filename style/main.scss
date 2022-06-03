@@ -1,0 +1,26 @@
+// Import Bootstrap 4 Library
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+
+$text-color1: #0c0d36;
+$text-color2: #9191a9;
+$putih: #fefefe;
+
+@import "global";
+@import "fonts";
+@import "navbar";
+
+@import "pages/home";
+@import "pages/details";
+@import "pages/cart";
+@import "pages/success";
+@import "pages/auth";
+@import "pages/dashboard";
+
+@import "components/kategories";
+@import "components/products";
+@import "components/breadcrumbs";
+@import "components/card";
+@import "components/card_list";
+@import "components/card_dashboard_product";
+
+@import "transitions/slide-fade";
