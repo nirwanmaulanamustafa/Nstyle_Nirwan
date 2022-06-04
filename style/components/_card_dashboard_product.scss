@@ -1,16 +1,19 @@
 .card-dashboard-product {
-  margin-bottom: 16px;
-  .card-body {
-    .product-title {
-      font-weight: 200;
-      font-size: 18px;
-      line-height: 27px;
-      color: $text-color1;
+    margin-bottom: 16px;
+    .card-body {
+        .product-title {
+            font-weight: 200;
+            font-size: 18px;
+            line-height: 27px;
+            color: $text-color1;
+        }
+        .product-category {
+            font-weight: normal;
+            font-size: 16px;
+            color: #a0a0a0;
+        }
     }
-    .product-category {
-      font-weight: normal;
-      font-size: 16px;
-      color: #a0a0a0;
-    }
-  }
 }
+// .page-content.custom-height-content {
+//     margin-top: 0px;
+// }

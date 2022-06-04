@@ -1,14 +1,19 @@
 .page-home {
-  h5 {
-    font-weight: 300;
-    margin-bottom: 10 5px;
-  }
+    h5 {
+        font-weight: 300;
+        margin-bottom: 10 5px;
+    }
 
-  .store-trend-categories {
-    margin-top: 30px;
-  }
+    .store-trend-categories {
+        margin-top: 30px;
+    }
 
-  .store-new-produk {
-    margin-top: 10px;
-  }
+    .store-new-produk {
+        margin-top: 10px;
+    }
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
 }
